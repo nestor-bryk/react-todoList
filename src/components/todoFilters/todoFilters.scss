@@ -1,0 +1,26 @@
+.filter {
+    width: 80%;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        height: 40px;
+        width: 30%;
+        background-color: cadetblue;
+        border-radius: 5px;
+        color: #fff;
+        border: 1px solid darkcyan;
+        cursor: pointer;
+        transition: all .6s;
+
+        &:hover {
+            background-color: darkcyan;
+        }
+    }
+
+    button.active {
+        background-color: darkslategrey;
+        transform: translateY(-5px);
+    }
+}

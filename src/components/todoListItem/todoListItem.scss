@@ -1,0 +1,33 @@
+.todo__list-item {
+    width: 80%;
+    height: 40px;
+    margin: 15px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+
+    p {
+        display: block;
+    }
+
+    button {
+        
+        border: none;
+        background-color: transparent;
+
+        svg {
+            width: 15px;
+            height: 15px;
+            margin: 0 8px;
+            cursor: pointer;
+            transition: all .6s;
+
+            &:hover {
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+}

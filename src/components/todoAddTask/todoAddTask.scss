@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+}
+
+.todo__input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    width: 90%;
+    margin: 20px auto;
+    height: 150px;
+    border: 1px solid #666;
+    border-radius: 5px;
+
+    input {
+        width: 80%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #666;
+        padding-left: 10px;
+    }
+
+    button {
+        width: 80%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid darkcyan;
+        background-color: cadetblue;
+        color: #fff;
+        cursor: pointer;
+        transition: all .6s;
+        
+        &:hover {
+            background-color: darkcyan;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": "551f0c65-cf28-4df6-8df6-00ff1e09364f",
+      "taskName": "Зробити каву",
+      "status": "todo"
+    },
+    {
+      "id": "269c2aca-e3c9-4d21-b5ae-80d1c4410740",
+      "taskName": "Прочитати книгу",
+      "status": "todo"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "All",
+      "className": "btn__all"
+    },
+    {
+      "name": "done",
+      "label": "Done",
+      "className": "btn__done"
+    },
+    {
+      "name": "todo",
+      "label": "Todo",
+      "className": "btn-todo"
+    }
+  ]
+}
